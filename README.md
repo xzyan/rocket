@@ -4,6 +4,5 @@
 <br>
 
 ```
-curl wget git tree neofetch pigz sshpass
-gnome-tweak-tool remmina
+gnome-tweak-tool remmina curl wget git tree neofetch pigz sshpass
 ```
