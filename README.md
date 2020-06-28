@@ -4,7 +4,7 @@
 <br>
 
 ```
-gnome-tweak-tool remmina vim curl wget git tree neofetch pigz sshpass
+gnome-tweak-tool remmina vim curl wget git tree neofetch pigz sshpass net-tools
 ```
 
 - **JVM**: openjdk-11-jre-headless
