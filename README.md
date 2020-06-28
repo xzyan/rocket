@@ -7,4 +7,5 @@
 gnome-tweak-tool remmina vim curl wget git tree neofetch pigz sshpass
 ```
 
-- JVM: openjdk-11-jre-headless
+- **JVM**: openjdk-11-jre-headless
+- **gotop**: https://github.com/cjbassi/gotop
