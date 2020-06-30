@@ -4,8 +4,7 @@
 <br>
 
 ```
-gnome-tweak-tool remmina vim curl wget git tree neofetch pigz sshpass net-tools ibus-pinyin
+gnome-tweak-tool remmina vim curl wget git tree neofetch pigz sshpass net-tools ibus-pinyin cloc
 ```
 
-- **JVM**: openjdk-11-jre-headless
-- **gotop**: https://github.com/cjbassi/gotop
+- https://github.com/cjbassi/gotop
