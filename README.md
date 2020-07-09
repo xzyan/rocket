@@ -4,7 +4,8 @@
 <br>
 
 ```
-gnome-tweak-tool remmina vim curl wget git tree neofetch pigz sshpass net-tools ibus-pinyin cloc
+gnome-tweak-tool remmina ibus-pinyin
+vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 ```
 
 - https://github.com/cjbassi/gotop
