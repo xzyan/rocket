@@ -8,4 +8,18 @@ gnome-tweak-tool remmina ibus-pinyin
 vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 ```
 
-- https://github.com/cjbassi/gotop
+**system info**
+
+```sh
+neofetch
+dpkg --version | grep dpkg
+echo
+printf '* '; apt --version
+printf '* '; g++ --version | grep g++
+printf '* '; java --version | grep openjdk
+printf '* '; go version
+printf '* '; python3 -V
+echo; df -h /
+echo; free -h
+echo;
+```
