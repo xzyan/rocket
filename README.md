@@ -3,7 +3,14 @@
 
 <br>
 
-**install**
+🤔
+👨‍💻
+📌
+🎉
+✨
+📜
+
+📦 **install**
 ```
 gnome-tweak-tool remmina ibus-pinyin
 vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
@@ -30,3 +37,7 @@ echo;
 - https://github.com/cjbassi/gotop
 - https://github.com/link1st/go-stress-testing
 - https://github.com/FiloSottile/mkcert
+
+**windows**
+
+- https://github.com/jmeubank/tdm-gcc
