@@ -16,7 +16,7 @@ gnome-tweak-tool remmina ibus-pinyin
 vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 ```
 
-**system info**
+📌 **system info**
 
 ```sh
 neofetch
