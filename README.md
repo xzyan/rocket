@@ -38,6 +38,14 @@ echo;
 - https://github.com/link1st/go-stress-testing
 - https://github.com/FiloSottile/mkcert
 
+**vm-go**
+
+- https://github.com/mikespook/goemphp
+
+**libs**
+
+- https://github.com/importcjj/sensitive
+
 **windows**
 
 - https://github.com/jmeubank/tdm-gcc
