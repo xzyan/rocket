@@ -41,6 +41,7 @@ echo;
 
 **vm-go**
 
+- https://github.com/yuin/gopher-lua
 - https://github.com/mikespook/goemphp
 
 **libs**
