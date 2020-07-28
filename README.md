@@ -12,7 +12,7 @@
 
 📦 **install**
 ```
-gnome-tweak-tool remmina ibus-pinyin
+gnome-tweak-tool ibus-pinyin remmina
 vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 ```
 
@@ -32,7 +32,7 @@ echo; free -h
 echo;
 ```
 
-**command tool**
+**command tools**
 
 - https://github.com/cjbassi/gotop
 - https://github.com/link1st/go-stress-testing
