@@ -39,17 +39,24 @@ echo;
 - https://github.com/FiloSottile/mkcert
 - https://github.com/dylanaraps/fff
 
-**vm-go**
+**vm**
 
 - https://github.com/yuin/gopher-lua
 - https://github.com/mikespook/goemphp
 
-**libs**
+**driver**
 
-- https://github.com/jpillora/overseer
-- https://github.com/jmoiron/sqlx
 - https://github.com/mongodb/mongo-go-driver
 - https://github.com/Shopify/sarama
+- https://github.com/jmoiron/sqlx
+
+**service**
+
+- https://github.com/blevesearch/bleve
+- https://github.com/jpillora/overseer
+
+**libs**
+
 - https://github.com/zhiqiangxu/qrpc
 - https://github.com/importcjj/sensitive
 - https://github.com/tealeg/xlsx
