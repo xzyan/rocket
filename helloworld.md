@@ -12,7 +12,7 @@
 | 5 | C++ | 27% | √ ||
 | 6 | PHP | 27% || √ |
 | 7 | C | 23% | √ ||
-| 8 | C# | 22% || √ |
+| 8 | C# | 22% | √ ||
 | 9 | Go | 19% | √ ||
 | 10 | Kotlin | 17% | √ | √ |
 | 11 | Dart | 9% |||
@@ -133,12 +133,47 @@ __main_();
 ## C
 
 ```c
-// 编译:
+// 编译: gcc main.c -o main
+
+#include <stdio.h>
+#include <stdlib.h>
+
+char *Hello(char *s) {
+    char *str = (char *) malloc(0);
+    sprintf(str, "%s%s", "Hello ", s);
+    return str;
+}
+
+int main() {
+    char *str = Hello("World");
+    printf("%s\n", str);
+    return 0;
+}
 ```
 
 ## C#
 
-```
+```cs
+// 编译: dotnet build -o bin
+
+using System;
+
+namespace main
+{
+    class Program
+    {
+        static string Hello(string s)
+        {
+            return "Hello " + s;
+        }
+
+        static void Main(string[] args)
+        {
+            string str = Hello("World");
+            Console.WriteLine(str);
+        }
+    }
+}
 ```
 
 ## Go
@@ -163,6 +198,8 @@ func main() {
 ## Kotlin
 
 ```kotlin
+// 编译: kotlinc-native main.kt -o main
+
 fun Hello(s: String): String {
     return "Hello $s"
 }
