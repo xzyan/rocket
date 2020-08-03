@@ -37,3 +37,8 @@ rs.add({ host: "127.0.0.1:28001", priority: 1 })
 
 // 删除复制集节点
 rs.remove("127.0.0.1:28001")
+
+// 修改复制集节点的优先级
+cfg = rs.conf()
+cfg.members[0].priority = 10
+rs.reconfig(cfg)
