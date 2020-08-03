@@ -1,0 +1,39 @@
+openssl rand -base64 756 > mongo.pem; chmod 400 mongo.pem
+
+# 缓存容量上限
+wiredTigerCacheSizeGB = 30
+
+# 日志
+logappend = true
+logpath = mongod.log
+
+# 实例
+dbpath = db
+port = 28001
+bind_ip = 0.0.0.0
+fork = true
+
+# 复制集
+keyFile   = mongo.pem
+replSet   = MYDB
+oplogSize = 2048 # MB
+
+rs.initiate({
+    _id: "BBSDB",
+    members: [
+        { _id: 0, host: "127.0.0.1:28001", priority: 2 },
+    ]
+})
+
+// 创建超级用户
+db.createUser({ user: "root", pwd: "<password>", roles: [{ role: "root", db: "admin" }] })
+db.auth("root", "<password>")
+
+// 创建读写用户
+db.createUser({ user: "<dbname>", pwd: "<password>", roles: [{ role: "readWrite", db: "<dbname>" }] })
+
+// 添加复制集节点
+rs.add({ host: "127.0.0.1:28001", priority: 1 })
+
+// 删除复制集节点
+rs.remove("127.0.0.1:28001")
