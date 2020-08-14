@@ -11,10 +11,24 @@
 📜
 
 📦 **install**
-```
+
+```sh
+# Desktop
 gnome-tweak-tool ibus-pinyin remmina
+```
+```sh
+# Command
 vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 ```
+
+**download tools**
+
+| IDE | SDK |
+|:---|:---|
+| [IntelliJ IDEA](https://jetbrains.com/idea/download) | [Java](https://openjdk.java.net), Kotlin, [Groovy](http://groovy-lang.org), [Scala](https://scala-lang.org) |
+| [PyCharm](https://jetbrains.com/pycharm/download) | Python |
+| [GoLand](https://jetbrains.com/go/download) | [Go](https://golang.org) |
+| [PhpStorm](https://jetbrains.com/phpstorm/download) | PHP |
 
 📌 **system info**
 
