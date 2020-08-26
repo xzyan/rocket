@@ -27,8 +27,8 @@ vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 |:---|:---|:---|
 | [IntelliJ IDEA](https://jetbrains.com/idea/download) | [download](https://openjdk.java.net) | Java, Kotlin, Groovy, Scala |
 | [GoLand](https://jetbrains.com/go/download) | [download](https://golang.org) | Go |
-| [CLion](https://jetbrains.com/clion/download) | install g++ | C, C++ |
-| [PyCharm](https://jetbrains.com/pycharm/download) | default | Python |
+| [CLion](https://jetbrains.com/clion/download) || C, C++ |
+| [PyCharm](https://jetbrains.com/pycharm/download) || Python |
 
 📌 **system info**
 
