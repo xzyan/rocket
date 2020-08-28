@@ -32,6 +32,7 @@ vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 
 📌 **system info**
 
+
 ```sh
 neofetch
 dpkg --version | grep dpkg
