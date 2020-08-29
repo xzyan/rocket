@@ -21,8 +21,13 @@ gnome-tweak-tool ibus-pinyin remmina
 vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 ```
 
+```sh
+pip3 install torch torchvision
+```
+
 **download tools**
 
+- https://developer.android.com/studio
 - https://jetbrains.com/clion/download
 - https://jetbrains.com/go/download
 - https://jetbrains.com/idea/download
