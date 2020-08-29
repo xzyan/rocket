@@ -23,12 +23,12 @@ vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 
 **download tools**
 
-| IDE Tools | Language |
-|---:|:---|
-| [CLion](https://jetbrains.com/clion/download) | C/C++ |
-| [GoLand](https://jetbrains.com/go/download) | [Go](https://golang.org) |
-| [IntelliJ](https://jetbrains.com/idea/download) | [Java](https://openjdk.java.net), Kotlin, Groovy, Scala |
-| [PyCharm](https://jetbrains.com/pycharm/download) | [Python](https://www.python.org) |
+- https://jetbrains.com/clion/download
+- https://jetbrains.com/go/download
+- https://jetbrains.com/idea/download
+- https://jetbrains.com/pycharm/download
+- https://openjdk.java.net
+- https://golang.org
 
 📌 **system info**
 
