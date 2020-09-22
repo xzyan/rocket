@@ -18,7 +18,7 @@ gnome-tweak-tool ibus-pinyin remmina
 ```
 ```sh
 # Command
-vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
+vim curl wget git tree neofetch pigz sshpass net-tools cloc g++ cargo gradle
 ```
 
 ```sh
