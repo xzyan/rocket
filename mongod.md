@@ -42,3 +42,6 @@ rs.remove("127.0.0.1:28001")
 cfg = rs.conf()
 cfg.members[0].priority = 10
 rs.reconfig(cfg)
+
+// 修改密码
+db.changeUserPassword("用户", "密码")
