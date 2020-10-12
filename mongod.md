@@ -1,3 +1,4 @@
+```
 openssl rand -base64 756 > mongo.pem; chmod 400 mongo.pem
 
 # 缓存容量上限
@@ -45,3 +46,4 @@ rs.reconfig(cfg)
 
 // 修改密码
 db.changeUserPassword("用户", "密码")
+```
