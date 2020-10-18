@@ -14,7 +14,7 @@
 
 ```sh
 # Desktop
-gnome-tweak-tool ibus-pinyin remmina
+gnome-tweak-tool remmina
 ```
 ```sh
 # Command
