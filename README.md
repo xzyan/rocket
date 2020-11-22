@@ -14,11 +14,11 @@
 
 ```sh
 # Desktop
-gnome-tweak-tool remmina
+gnome-tweak-tool synaptic remmina
 ```
 ```sh
 # Command
-vim curl wget git tree neofetch pigz sshpass net-tools cloc g++ cargo gradle
+vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 ```
 
 ```sh
