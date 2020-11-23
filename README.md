@@ -25,6 +25,17 @@ vim curl wget git tree neofetch pigz sshpass net-tools cloc g++
 pip3 install torch torchvision
 ```
 
+- 设置时区
+
+```
+sudo tzconfig，如果命令不存在请使用 dpkg-reconfigure tzdata
+然后按照提示选择 Asia对应的序号，选完后会显示一堆新的提示—输入城市名，如Shanghai或Chongqing，最后再用 sudo date -s “” 来修改本地时间。
+按照提示进行选择时区。
+
+二、为了防止系统重启后时区改变，输入以下命令
+sudo cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+```
+
 **download tools**
 
 - https://developer.android.com/studio
